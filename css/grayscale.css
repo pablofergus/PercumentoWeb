@@ -427,7 +427,7 @@ body {
 }
 
 .less-spacing p{
-    margin: 0 0 0px;
+    margin: 0 0 0 0;
     font-size: 30px;
 }
 
@@ -443,4 +443,20 @@ body {
 #border {
     border-top: thin solid black;
     margin-top: 50px;
+}
+
+.profiles > img,
+.profiles > p {
+        display: inline-block;
+    }
+
+.profiles img{
+    height: 165px;
+    width: 124px;
+    margin-left: 15px;
+    vertical-align: text-bottom;
+}
+
+.profiles h2{
+    text-align: left;
 }
